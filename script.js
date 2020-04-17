@@ -66,7 +66,7 @@ function createBox ()  {
     }
 }
     } else {
-        alert("Please choose a number between 1-100");
+        alert("Please choose a number between 2-100");
     }
 }
 
@@ -87,6 +87,4 @@ function clearGrid() {
 //Event listeners used to create and clear draw boxes.
 clear.addEventListener('click', clearGrid);
 input.addEventListener('keypress', createBoxOnKeyPress);
-
-//Initialize App
 
