@@ -24,6 +24,14 @@ header h1 {
     color: white;
 }
 
+.ross {
+    position: absolute;
+    top: 290px;
+    margin-left: 20px;
+    border: 0;
+    padding: 0;
+}
+
 .instructions {
     margin: 70px auto;
     color: black;
