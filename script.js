@@ -80,8 +80,6 @@ function createBoxOnKeyPress (event) {
 //Clears the container of all boxes that were created.
 function clearGrid() {
     container.innerHTML = "";
-    //Clears colored boxes and then resets the grid to the default input value so you don't have to reload browser.
-    createBox();
 }
 
 //Event listeners used to create and clear draw boxes.
