@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    height: 100vh;
 }
 
 header h1 {
@@ -95,9 +96,6 @@ input[type=color] {
     display: inline-block;
 } 
 
-.red {
-    background-color: red;
-}
 
 .btn {
     height: 30px;
@@ -119,4 +117,15 @@ input[type=color] {
 
 #random h3 {
     color: black;
+}
+
+@media only screen and (min-width: 1200px) {
+    header h1{
+        margin-top: 100px;
+    }
+
+    .ross {
+        height: 500px;
+        top: 310px;
+    }
 }
