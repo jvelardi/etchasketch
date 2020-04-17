@@ -1,0 +1,114 @@
+*, html {
+    margin: 0;
+}
+
+body {
+    background: url("easel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.inputBoxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+}
+
+.instructions {
+    margin: 70px auto;
+    color: black;
+    display: inline-block;
+    word-spacing: double;
+    padding: 0 50px;
+    border-radius: 5px;
+}
+
+.instructions h2 {
+    text-align: center;
+}
+
+.instructions h3 {
+    margin-top: 10px;
+}
+
+
+input {
+    border-radius: 20px;
+    width: 65px;
+    outline: none;
+    border: 3px solid black;
+    margin-left: 3px;
+    text-indent: 7px;
+}
+
+.input {
+    margin-left: 20px;
+}
+
+.input h3 {
+   text-align: center;
+   color: white;
+}
+
+input[type=color] {
+    border: 1px solid black;
+    border-radius: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 18px;
+    margin-left: 23px;
+}
+
+
+
+.container {
+    display: grid;
+    height: 460px;
+    width: 460px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 30px;
+    padding: 0;
+    background-color: white;
+}
+
+.divSize {
+    display: inline-block;
+} 
+
+.red {
+    background-color: red;
+}
+
+.btn {
+    height: 30px;
+    margin-top: 13px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+}
+
+#color h3 {
+    margin-right: 23px;
+}
+
+#clear h3{
+    margin: 0;
+    color: black;
+}
+
+#random h3 {
+    color: black;
+}
